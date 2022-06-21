@@ -8,6 +8,12 @@ public class Main {
             int age = Integer.parseInt(args[2]);
         } catch (NumberFormatException ex) {
             ex.printStackTrace();
+            System.out.println("Hello, I am " + firstName + lastName + "and I am " + age + "years old");
+                system.out.println( age % 2 == 0);
+                    boolean sameName = firstName = lastName;
+                    System.out.println(sameName);
+                        boolean amIOld = age > 0;
+                        System.out.println(amIOld);
         }
         
 
