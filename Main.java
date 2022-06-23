@@ -13,7 +13,7 @@ public class Main {
         
 
         // Print out the following string: "Hello, I am <firstName> <lastName>, and I am <age> years old"
-               System.out.println("Hello, I am " + firstName + " " + lastName + " ,and I am " + age + " years old");
+               System.out.println("Hello, I am " + firstName + " " + lastName + ", and I am " + age + " years old");
         // Print out whether age is even
                 System.out.println( age % 2 == 0);
         // Print out whether firstName equals lastName
