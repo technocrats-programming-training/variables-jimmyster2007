@@ -18,9 +18,9 @@ public class Main {
                 System.out.println( age % 2 == 0);
         // Print out whether firstName equals lastName
                     boolean sameName = firstName == lastName;
-                    System.out.println("my first and last name are different." + sameName);
+                    System.out.println( sameName);
         // Print out whether age is greater than 0
                     boolean amIOld = age > 0;
-                    System.out.println("i am old." + amIOld);
+                    System.out.println( amIOld);
     }
 }
