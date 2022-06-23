@@ -17,8 +17,7 @@ public class Main {
         // Print out whether age is even
                 System.out.println( age % 2 == 0);
         // Print out whether firstName equals lastName
-                    boolean sameName = firstName == lastName;
-                    System.out.println( sameName);
+                    System.out.println( firstName.equals(lastName));
         // Print out whether age is greater than 0
                     boolean amIOld = age > 0;
                     System.out.println( amIOld);
